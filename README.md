@@ -5,3 +5,14 @@
 ~~~css
 <p style = "color: red;">
 ~~~
+
+* Internal style
+~~~css
+<head>
+  <style>
+    p{
+      background-color: blue;
+    }
+  </style>
+</head>
+~~~
