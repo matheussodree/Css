@@ -33,7 +33,7 @@
 
 ~~~
 
-* external style
+* External style
 ~~~css
 
 <!DOCTYPE html>
