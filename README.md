@@ -61,8 +61,8 @@ background-color: yellow;
 }
 ~~~
 
-Fonts property
-
+* Fonts property
+~~~html
 We can define fonts using
 of the font-family property
 
@@ -87,3 +87,4 @@ font-family: "Helvetica", "Lucida Grande", sans-serif;
 We have other properties to manipulate the font, such as the font-style property, 
 which defines the font style that can be: 
 normal (normal vertical), italic (slanted) and oblique (slanted).
+~~~
