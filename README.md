@@ -60,3 +60,30 @@ color: blue;
 background-color: yellow;
 }
 ~~~
+
+Fonts property
+
+We can define fonts using
+of the font-family property
+
+The font-family property can receive its value with or without quotes depending on its composition
+,for example, when a font has its name separated by a space.
+
+h1 {
+font-family: serif;
+}
+h2 {
+font-family: sans-serif;
+}
+P {
+font-family: monospace;
+}
+Note: Monospace fonts can be either serif or sans serif. Monospace just means that all letters are the same size.
+
+body {
+font-family: "Helvetica", "Lucida Grande", sans-serif;
+}
+
+We have other properties to manipulate the font, such as the font-style property, 
+which defines the font style that can be: 
+normal (normal vertical), italic (slanted) and oblique (slanted).
