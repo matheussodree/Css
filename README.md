@@ -109,3 +109,18 @@ text-indent: 30px; /* size of the margin of the first line of text
 */
 }
 ~~~
+
+* Background image
+~~~css
+The background-image property allows specifying an image file to be displayed in the background of the element. For example:
+
+h1 {
+background-image: url(over-background.jpg);
+}
+
+But we can also pass a web address to grab images remotely:
+
+body {
+background-image: url(https://i.imgur.com/uAhjMNd.jpg);
+}
+~~~
