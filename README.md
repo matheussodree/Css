@@ -62,7 +62,7 @@ background-color: yellow;
 ~~~
 
 * Fonts property
-~~~html
+~~~css
 We can define fonts using
 of the font-family property
 
