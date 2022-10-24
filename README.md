@@ -88,3 +88,24 @@ We have other properties to manipulate the font, such as the font-style property
 which defines the font style that can be: 
 normal (normal vertical), italic (slanted) and oblique (slanted).
 ~~~
+
+* Text Alignment
+~~~css
+In the following example we are going to change the text alignment with the text-align property.
+
+P {
+text-align: right;
+}
+
+The example dictates that all paragraphs on our page have the text aligned to the right.
+
+You can also configure a number of text spacing with CSS:
+
+P {
+line height: 3px; /* size of the height of each row */
+letter-spacing: 3px; /* size of space between each letter */
+word-spacing: 5px; /* size of space between each word */
+text-indent: 30px; /* size of the margin of the first line of text
+*/
+}
+~~~
