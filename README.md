@@ -78,7 +78,8 @@ font-family: sans-serif;
 P {
 font-family: monospace;
 }
-Note: Monospace fonts can be either serif or sans serif. Monospace just means that all letters are the same size.
+Note: Monospace fonts can be either serif or sans serif. Monospace just means that all letters 
+are the same size.
 
 body {
 font-family: "Helvetica", "Lucida Grande", sans-serif;
@@ -112,7 +113,8 @@ text-indent: 30px; /* size of the margin of the first line of text
 
 * Background image
 ~~~css
-The background-image property allows specifying an image file to be displayed in the background of the element. For example:
+The background-image property allows specifying an image file to be displayed 
+in the background of the element. For example:
 
 h1 {
 background-image: url(over-background.jpg);
