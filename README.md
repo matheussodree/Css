@@ -126,3 +126,34 @@ body {
 background-image: url(https://i.imgur.com/uAhjMNd.jpg);
 }
 ~~~
+
+* Borders
+
+~~~css
+
+The CSS properties for defining the borders of an element present us with a series of options. 
+We can, for each edge of an element, determine its color, its display style and its
+width. For example:
+
+body {
+border-color: red;
+border-style: solid;
+border-width: 1px;
+}
+
+The border property has an abbreviated way to write the same styles we added above, but in a simpler way:
+
+body {
+border: 1px solid red;
+}
+
+We can also speak on which side of our element we want the border using the subproperty that indicates side:
+
+h1 {
+border-top: 1px solid red; /* red border on top */
+border-right: 1px solid red; /* red border on the right */
+border-bottom: 1px solid red; /* red border at the bottom */
+border-left: 1px solid red; /* red border on the left */
+}
+
+~~~
