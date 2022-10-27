@@ -195,3 +195,25 @@ height: 300px;
 width: 300px;
 }
 ~~~
+
+* Padding
+~~~css
+
+The padding property is used to define an internal spacing on elements 
+(by internal spacing we mean the distance between the element's boundary, 
+its edge, and its respective content) and has the sub-properties listed below:
+
+-> padding top
+-> padding-right
+-> padding bottom
+-> padding-left
+
+If four values are passed, they will be applied respectively to padding-top ,
+padding-right , padding-bottom and padding-left .
+To facilitate the memorization of this order, it is enough to remember that the
+values are applied clockwise
+P {
+       padding: 10px 20px 15px 5px;
+}
+
+~~~
