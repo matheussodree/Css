@@ -157,3 +157,30 @@ border-left: 1px solid red; /* red border on the left */
 }
 
 ~~~
+
+* Colors in CSS
+~~~css
+Properties such as background-color , color , border-color , among others accept a color as a value.
+There are several ways to define colors when using CSS.
+
+The first, simplest, is using the color name:
+h1 {
+color: red;
+}
+h2 {
+background-color: yellow;
+}
+
+In CSS, we can write colors based on their RGB composition:
+
+h3 {
+color: rgb(255, 200, 0);
+}
+
+The most common is hexadecimal notation.
+This syntax is universally supported across browsers and is shorter to write, despite being more cryptic.
+
+h3 {
+background-color: #f2eded;
+}
+~~~
