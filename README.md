@@ -203,9 +203,9 @@ The padding property is used to define an internal spacing on elements
 (by internal spacing we mean the distance between the element's boundary, 
 its edge, and its respective content) and has the sub-properties listed below:
 
--> padding top
+-> padding-top
 -> padding-right
--> padding bottom
+-> padding-bottom
 -> padding-left
 
 If four values are passed, they will be applied respectively to padding-top ,
@@ -214,6 +214,28 @@ To facilitate the memorization of this order, it is enough to remember that the
 values are applied clockwise
 P {
        padding: 10px 20px 15px 5px;
+}
+
+~~~
+
+* Margin
+~~~css
+
+The margin property is very similar to the padding property, 
+except that it adds space after the element boundary, 
+i.e., it is a spacing beyond the element itself (outer spacing).
+
+-> margin-top
+-> margin-right
+-> margin-bottom
+-> margin-left
+
+There is also a way to allow the browser to define the dimension of the padding or margin 
+property according to the available space on the screen: 
+we set the value auto to the spacings we want
+
+P {
+margin: 0 auto;
 }
 
 ~~~
