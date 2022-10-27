@@ -184,3 +184,14 @@ h3 {
 background-color: #f2eded;
 }
 ~~~
+
+* Dimensions
+~~~css
+You can determine the dimensions of an element, for example:
+
+P {
+background-color: red;
+height: 300px;
+width: 300px;
+}
+~~~
