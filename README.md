@@ -239,3 +239,35 @@ margin: 0 auto;
 }
 
 ~~~
+
+* Lists
+
+~~~css
+
+HTML lists
+
+-> Unordered list
+
+<ul>
+<li>First item on the list</li>
+<li>
+Second item on the list:
+<ul>
+<li>First item of nested list</li>
+<li>Second item in nested list</li>
+</ul>
+</li>
+<li>Third item on the list</li>
+</ul>
+
+-> Ordered list
+
+<ol>
+<li>First item on the list</li>
+<li>Second list item</li>
+<li>Third item on the list</li>
+<li>Fourth item on the list</li>
+<li>Fifth item on the list</li>
+</ol>
+
+~~~
