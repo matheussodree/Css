@@ -271,3 +271,39 @@ Second item on the list:
 </ol>
 
 ~~~
+
+* Definition lists
+
+~~~css
+
+This list is the definition list.
+<dl>
+<dt>HTML</dt>
+<dd>
+HTML is the text markup language used to display text as pages on the Internet.
+</dd>
+<dt>Browser</dt>
+<dd>
+Browser is software that requests an HTML document
+over the HTTP protocol and displays its content in a
+window.
+</dd>
+</dl
+
+~~~
+
+* Stylized Lists
+
+~~~css
+
+To style the default format of ordered and unordered lists, we can use the list-style-type property in CSS:
+
+ul {
+/* change to circle before each <li> in the unordered list */
+list style type: circle;
+}
+ol {
+/* switches to an alphabetical sequence before each <li> in the sorted list */
+list style type: upper alpha;
+}
+~~~
