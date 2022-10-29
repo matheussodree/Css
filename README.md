@@ -307,3 +307,36 @@ ol {
 list style type: upper alpha;
 }
 ~~~
+
+* Classes
+
+~~~css
+
+Using classes, we can change the entire HTML structure without worrying 
+that these changes will affect the styling we did in the beginning.
+
+HTML:
+
+<h1>MusicDot</h1>
+<h2>About MusicDot</h2>
+<p>Introduction</p>
+<!-- Added the subtitle class-->
+<h3 class="subtitle">History</h3>
+<p>Text</p>
+<!-- Added the subtitle class-->
+<h3 class="subtitle">Differentials</h3>
+<ul>
+<li>Differential 1</li>
+<li>Differential 2</li>
+<li>Differential 3</li>
+</ul>
+
+CSS:
+
+.subtitle {
+font-size: 24px;
+font-weight: bold;
+border-bottom: 1px solid #000000;
+}
+
+~~~
