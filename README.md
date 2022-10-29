@@ -340,3 +340,52 @@ border-bottom: 1px solid #000000;
 }
 
 ~~~
+
+* Display Types
+
+~~~css
+
+Displays
+
+Display Types
+
+There are 2 types of displays that characterize the default display of most HTML elements:
+
+display: block and display: inline
+
+In summary then of the displays:
+-> display: block :
+- The element occupies the entire available width
+- If you decrease the size of this element, the remaining space will be occupied by a non-removable margin
+-> display: inline :
+- Allows another element to be on your side if there is space
+- The element only takes up the space to show its content
+- Does not receive size properties
+-> display: inline-block :
+- Allows another element to be on your side if there is space
+- The element initially only takes up the space to show its content
+- Gets size properties
+
+The easiest way to see the difference between them is to use the
+tags that have these properties by default, <p> and <a> respectively, and put a background color.
+
+HTML:
+
+<p>A paragraph that is block</p>
+<a>A link that is inline</a>
+
+CSS:
+
+P {
+background-color: blue;
+}
+The {
+background-color: red;
+}
+
+See how much space these elements actually take up. 
+The <p> tag takes up the entire width of the page while 
+the <a> tag takes up just the space needed to show the text we have placed. 
+We will put more elements in our example above.
+
+~~~
