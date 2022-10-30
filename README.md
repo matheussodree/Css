@@ -389,3 +389,13 @@ the <a> tag takes up just the space needed to show the text we have placed.
 We will put more elements in our example above.
 
 ~~~
+
+* Unit Related to EM and REM
+
+~~~css
+
+EM and REM have the same concept of % but instead of being based on the size of an element,
+these measurements are based on font size. 
+EM uses the font size of the parent element and REM uses the font size of the <html> .
+
+~~~
