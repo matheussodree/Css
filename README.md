@@ -398,4 +398,16 @@ EM and REM have the same concept of % but instead of being based on the size of 
 these measurements are based on font size. 
 EM uses the font size of the parent element and REM uses the font size of the <html> .
 
+CSS:
+html {
+font-size: 10px;
+}
+div {
+font-size: 20px;
+}
+img {
+width: 10in; /* The width will be 200px */
+height: 10rem; /* The height will be 100px */
+}
+
 ~~~
